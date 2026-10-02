@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Sulaeman Food – Nasi Bukhori & Shawarma Lhokseumawe</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- File CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="nv">
+        <div class="c">
+            <a href="#" class="logo">Sulaeman<i></i>Food</a>
+            <div class="links">
+                <a href="#menu">Menu</a>
+                <a href="#pesan">Pesan</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#cara">Cara Pesan</a>
+                <a href="#info">Lokasi</a>
+                <a class="btn p sm" href="#pesan">Pesan Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="c">
+            <div>
+                <span class="lbl rv">Open Pre-Order · Lhokseumawe</span>
+                <h1 class="rv">Nasi bukhori <em>autentik,</em> sekali coba pingin lagi.</h1>
+                <p class="rv">Nasi bukhori ayam &amp; kambing, serta shawarma dengan 5 pilihan saus. Dimasak segar, porsi mengenyangkan, harga bersahabat.</p>
+                <div class="btns rv">
+                    <a class="btn p" href="#pesan">Pesan Sekarang</a>
+                    <a class="btn o" href="#menu">Lihat Menu</a>
+                </div>
+                <div class="trust rv">
+                    <div><b>Rp18K</b><span>Mulai dari</span></div>
+                    <div><b>2 hari</b><span>Buka tiap minggu</span></div>
+                    <div><b>Segar</b><span>Dimasak per pesanan</span></div>
+                </div>
+            </div>
+            <div class="vis rv">
+                <div class="disc">
+                    <img data-k="hero" width="526" height="526" alt="Nasi bukhori ayam Sulaeman Food">
+                </div>
+                <div class="fc a"><b>Selasa &amp; Jumat</b>15.00 – 18.30 WIB</div>
+                <div class="fc b"><b>5 Pilihan Saus</b>Untuk Shawarma</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="c">
+            <div class="head rv">
+                <span class="lbl">Menu</span>
+                <h2>Menu Sulaeman Food</h2>
+                <p>Pilih menu favorit dan atur jumlahnya, lalu kirim pesanan lewat WhatsApp.</p>
+            </div>
+            <div class="mg">
+                <div class="m rv">
+                    <img class="ph" data-k="bk" width="526" height="300" alt="Nasi Bukhori Sulaeman Food">
+                    <span class="tg">Terlaris</span>
+                    <h3>Nasi Bukhori</h3>
+                    <p class="d">Nasi basmati berbumbu rempah, pilihan ayam atau kambing. Tersedia per porsi dan 1 talam untuk acara.</p>
+                    <div class="ml" data-g="nb"></div>
+                </div>
+                <div class="m rv">
+                    <img class="ph" data-k="sw" width="730" height="480" alt="Shawarma Sulaeman">
+                    <h3>Shawarma Sulaeman</h3>
+                    <p class="d">Daging ayam 100% original, sayur segar, dibalut roti panggang.</p>
+                    <div class="ml" data-g="sw"></div>
+                    <div class="sc">
+                        <small>Pilihan saus</small>Original · BBQ · Black Pepper · Hot Spicy · Secret Sauce
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="pesan" class="order">
+        <div class="c">
+            <div class="rv">
+                <span class="lbl">Pesan Online</span>
+                <h2>Pesan dalam hitungan detik</h2>
+                <p>Isi form singkat, lalu pesanan Anda langsung terkirim ke WhatsApp kami lengkap dengan rinciannya.</p>
+                <ul>
+                    <li>Tanpa daftar akun</li>
+                    <li>Konfirmasi langsung via WhatsApp</li>
+                    <li>Melayani pesanan acara &amp; kantor</li>
+                </ul>
+            </div>
+            <div class="form rv">
+                <h3>Ringkasan Pesanan</h3>
+                <div class="sum" id="sm"></div>
+                <div class="f" id="sauce" hidden>
+                    <label>Saus Shawarma</label>
+                    <select id="sa">
+                        <option>Original</option>
+                        <option>BBQ</option>
+                        <option>Black Pepper</option>
+                        <option>Hot Spicy</option>
+                        <option>Secret Sauce</option>
+                    </select>
+                </div>
+                <div class="f">
+                    <label>Nama</label>
+                    <input type="text" id="nm" placeholder="Nama Anda">
+                </div>
+                <div class="f">
+                    <label>Catatan (opsional)</label>
+                    <input type="text" id="ct" placeholder="Contoh: diambil jam 4 sore">
+                </div>
+                <div class="tot">
+                    <span>Total</span>
+                    <b id="tt">Rp 0</b>
+                </div>
+                <a class="btn" id="go" href="#" target="_blank" rel="noopener">Kirim Pesanan via WhatsApp</a>
+                <p class="hint" id="hn">Pilih minimal 1 menu pada bagian Menu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri">
+        <div class="c">
+            <div class="head rv">
+                <span class="lbl">Galeri</span>
+                <h2>Dari dapur kami</h2>
+                <p>Sedikit gambaran hidangan dan suasana Sulaeman Food. Klik foto untuk memperbesar.</p>
+            </div>
+            <div class="gal rv" id="gal"></div>
+            <p class="ig rv">Lebih banyak foto di <a href="https://instagram.com/sulaeman.food" target="_blank" rel="noopener">Instagram @sulaeman.food</a></p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- Testimonials Section (Marquee Horizontal) -->
+<section id="testimoni" style="background:var(--soft); overflow: hidden;" class="py-16">
+  <div class="c">
+    <div class="head rv" style="margin-bottom: 2rem;">
+      <span class="lbl">Testimoni</span>
+      <h2>Kata pelanggan kami</h2>
+    </div>
+  </div>
+
+  <!-- Container Marquee Horizontal -->
+  <div class="marquee-container">
+    <!-- Track Utama -->
+    <div class="marquee-track">
+      
+    </div>
+
+    <!-- Track Duplikat (Wajib ada untuk efek Seamless / Tanpa Jeda) -->
+    <div class="marquee-track" aria-hidden="true">
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Bumbu bukhorinya sangat meresap, porsinya juga banyak. Shawarma Secret Sauce-nya mantap!"</p>
+        <div class="author">
+          <h4>Rizki Aulia</h4>
+          <span>Lhokseumawe</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Pesan talam untuk acara keluarga, semua suka. Daging kambingnya empuk dan gak bau."</p>
+        <div class="author">
+          <h4>Ikfar</h4>
+          <span>Kandang</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Shawarma Hot Spicy favorit banget untuk cemilan sore. Fast response juga pas pesan via WA."</p>
+        <div class="author">
+          <h4>Farhan Ramos</h4>
+          <span>Buloh</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Nasi kebuli paling recommended! Bumbu rempahnya berani dan pas banget di lidah."</p>
+        <div class="author">
+          <h4>Fauzi Plak</h4>
+          <span>Lhokseumawe</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Layanannya cepat dan ramah. Porsi makanannya melimpah, dijamin kenyang puas!"</p>
+        <div class="author">
+          <h4>Fakhrur Radhy</h4>
+          <span>Krueng Geukueh</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Bumbu shawarmanya berasa banget, beda dari yang lain. Next time pasti bakal order lagi."</p>
+        <div class="author">
+          <h4>Sandar</h4>
+          <span>Bireuen</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Top banget buat acara kumpul-kumpul. Dagingnya lembut dan bumbunya ngeresap sempurna."</p>
+        <div class="author">
+          <h4>Roy</h4>
+          <span>Krueng Mane</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Rasa otentik dan harganya sangat terjangkau. Fast response banget pas dipesan!"</p>
+        <div class="author">
+          <h4>Birrul</h4>
+          <span>Ceubo</span>
+        </div>
+      </div>
+      <div class="tm-card">
+        <div class="stars">★★★★★</div>
+        <p>"Sausnya juara! Daging kambingnya empuk banget dan gak ada bau prengus sama sekali."</p>
+        <div class="author">
+          <h4>Dhirar</h4>
+          <span>Leubu</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="c" style="text-align:center; margin-top:30px">
+    <a class="btn o" href="https://wa.me/6282277003634?text=Halo%20Sulaeman%20Food%2C%20saya%20mau%20kirim%20testimoni" target="_blank" rel="noopener">Kirim testimoni via WhatsApp</a>
+  </div>
+</section>
+
+    <!-- Lightbox Modal -->
+    <div class="lb" id="lb" hidden>
+        <button type="button" id="lbx" aria-label="Tutup">×</button>
+        <img id="lbi" alt="">
+    </div>
+
+    <!-- How to Order Section -->
+    <section id="cara">
+        <div class="c">
+            <div class="head rv">
+                <span class="lbl">Pemesanan</span>
+                <h2>Empat langkah mudah</h2>
+            </div>
+            <div class="steps">
+                <div class="s rv"><h3>Pilih menu</h3><p>Tentukan menu dan jumlah porsi.</p></div>
+                <div class="s rv"><h3>Kirim via WhatsApp</h3><p>Pesanan terkirim otomatis ke kami.</p></div>
+                <div class="s rv"><h3>Konfirmasi</h3><p>Kami konfirmasi total dan waktu ambil.</p></div>
+                <div class="s rv"><h3>Nikmati</h3><p>Pesanan siap disantap.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info & Location Section -->
+    <section id="info" style="padding-top:20px">
+        <div class="c">
+            <div class="head rv">
+                <span class="lbl">Kunjungi Kami</span>
+                <h2>Jam &amp; lokasi</h2>
+            </div>
+            <div class="info">
+                <div class="i rv">
+                    <span class="lbl">Jam Buka</span>
+                    <h3>Selasa &amp; Jumat</h3>
+                    <p><b>15.00 – 18.30 WIB</b></p>
+                </div>
+                <div class="i rv">
+                    <span class="lbl">Lokasi</span>
+                    <h3>Lhokseumawe</h3>
+                    <p>Menerima pesanan untuk acara &amp; kantor. Titik jualan dapat berubah, cek Instagram atau tanya via WhatsApp.</p>
+                    <a class="btn o sm" style="margin-top:14px" id="mp" href="https://maps.app.goo.gl/obBUdfBv5DhphUDD7" target="_blank" rel="noopener">Buka di Google Maps</a>
+                </div>
+                <div class="i rv">
+                    <span class="lbl">Kontak</span>
+                    <h3>0822-7700-3634</h3>
+                    <p>Instagram <a href="https://instagram.com/sulaeman.food" target="_blank" rel="noopener"><b>@sulaeman.food</b></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="c">
+            <a href="#" class="logo">Sulaeman<i style="color:var(--gold);font-style:normal">.</i>Food</a>
+            <span>© 2026 Sulaeman Food · Lhokseumawe · <a href="https://instagram.com/sulaeman.food" target="_blank" rel="noopener" style="color:var(--gold)">Instagram</a> · <a href="https://wa.me/6282277003634" target="_blank" rel="noopener" style="color:var(--gold)">WhatsApp</a></span>
+        </div>
+    </footer>
+
+    <!-- Floating Order Bar -->
+    <a class="bar" id="bar" href="#pesan"></a>
+
+    <!-- WhatsApp Floating Button -->
+    <a class="wa" href="https://wa.me/6282277003634?text=Halo%20Sulaeman%20Food%2C%20saya%20mau%20pesan" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+        <span>Chat WhatsApp</span>
+        <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.600 15L2 22l5.200-1.400A10 10 0 1 0 12 2zm0 18.200c-1.500 0-3-.4-4.200-1.200l-.3-.2-3 .8.8-2.900-.2-.3A8.200 8.200 0 1 1 12 20.200z"/></svg>
+    </a>
+
+    <!-- File JavaScript Eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
