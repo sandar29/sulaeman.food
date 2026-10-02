@@ -26,7 +26,7 @@ const TESTIMONI = [
     { nama: 'Rizki Aulia', teks: 'Bumbu bukhorinya sangat meresap, porsinya juga banyak. Shawarma Secret Sauce-nya mantap!', asal: 'Lhokseumawe' },
     { nama: 'Ikfar', teks: 'Pesan talam untuk acara keluarga, semua suka. Daging kambingnya empuk dan gak bau.', asal: 'Kandang' },
     { nama: 'Farhan Ramos', teks: 'Shawarma Hot Spicy favorit banget untuk cemilan sore. Fast response juga pas pesan via WA.', asal: 'Buloh' },
-    { nama: 'Fauzi Plak', teks: 'Nasi kebuli paling recommended! Bumbu rempahnya berani dan pas banget di lidah.', asal: 'Lhokseumawe' },
+    { nama: 'Fauzi Plak', teks: 'Nasi bukhori paling recommended! Bumbu rempahnya berani dan pas banget di lidah.', asal: 'Lhokseumawe' },
     { nama: 'Fakhrur Radhy', teks: 'Layanannya cepat dan ramah. Porsi makanannya melimpah, dijamin kenyang puas!', asal: 'Krueng Geukueh' },
     { nama: 'Sandar', teks: 'Bumbu shawarmanya berasa banget, beda dari yang lain. Next time pasti bakal order lagi.', asal: 'Bireuen' },
     { nama: 'Roy', teks: 'Top banget buat acara kumpul-kumpul. Dagingnya lembut dan bumbunya ngeresap sempurna.', asal: 'Krueng Mane' },
